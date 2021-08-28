@@ -55,5 +55,5 @@ function renderAvatar(user) {
 function getTime() {
     let time = new Date();
     let h = time.getHours();
-    return h > 19 ? '晚上好' : h > 13 ? '下午好' : h > 11 ? '中午好' : h > 8 ? '上午好' : h > 4 ? '早上好' : '晚上好'
+    return h > 19 ? '晚上好' : h > 12 ? '下午好' : h > 10 ? '中午好' : h > 7 ? '上午好' : h > 4 ? '早上好' : '晚上好'
 }
