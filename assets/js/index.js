@@ -57,3 +57,8 @@ function getTime() {
     let h = time.getHours();
     return h > 19 ? '晚上好' : h > 12 ? '下午好' : h > 10 ? '中午好' : h > 7 ? '上午好' : h > 4 ? '早上好' : '晚上好'
 }
+
+// 发布文章页面跳转
+function artList() {
+    $('#artList').click();
+}
